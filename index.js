@@ -6,7 +6,7 @@ import { Rate } from "k6/metrics";
 import { check } from "k6";
 const myFailRate = new Rate("failed requests");
 const checking = new Rate("check");
-const uriD = JSON.parse(open("./i.json"));
+const uriD = JSON.parse(open("./dat.json"));
 export let options = {
   scenarios: {
     passing: {
