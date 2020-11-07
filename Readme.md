@@ -6,4 +6,6 @@ To run first install k6 from [here](https://k6.io/docs/getting-started/installat
 
 to run use run
 
-``` run ``
+``` 
+run 
+```
