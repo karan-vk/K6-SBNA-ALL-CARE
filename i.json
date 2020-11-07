@@ -1,0 +1,297 @@
+[
+    {
+        "name": "GetAgencyListFilterNew",
+        "url": "http://allcaretesting.sbnasoftware.com/API/api/Agency/GetAgencyListFilterNew",
+        "method": "POST",
+        "payload": {
+            "AgencyFilter": 1,
+            "SearchColumn": "AgencyName",
+            "SearchText": "",
+            "agencyId": 0,
+            "companyFilter": 0,
+            "currentpageno": 1,
+            "field": "AgencyName",
+            "matchCase": false,
+            "operator": "startswith",
+            "orderColumn": "AgencyName",
+            "orderType": "asc",
+            "pageitem": 10,
+            "type": "",
+            "value": ""
+        }
+    },
+    {
+        "name": "GetuserIem",
+        "url": "http://allcaretesting.sbnasoftware.com/API/api/User/GetuserItem?",
+        "method": "POST",
+        "payload": {
+            "agencyId": 3,
+            "currentpageno": 1,
+            "field": "Fname",
+            "matchCase": false,
+            "operator": "startswith",
+            "orderColumn": "Fname",
+            "orderType": "asc",
+            "pageitem": 10,
+            "userId": 0,
+            "value": ""
+        }
+    },
+    {
+        "name": "FilterTimeSheetItem",
+        "url": "http://allcaretesting.sbnasoftware.com/API/api/Timesheet/FilterTimeSheetItem",
+        "method": "POST",
+        "payload": {
+            "agencyId": 3,
+            "client": 4,
+            "currentpage": 1,
+            "employee": 5,
+            "end": "2020-11-07T00:00:00.000Z",
+            "field": "clientName",
+            "matchCase": false,
+            "operator": "startswith",
+            "orderColumn": "TimesheetDate",
+            "orderType": "asc",
+            "pageitems": 10,
+            "payor": 4,
+            "start": "2020-11-07T00:00:00.000Z",
+            "type": "string",
+            "value": ""
+        }
+    },
+    {
+        "name": "GetTimeSheetVerficationFilter",
+        "url": "http://allcaretesting.sbnasoftware.com/API/api/TimeSheetVerfication/GetTimeSheetVerficationFilter",
+        "method": "POST",
+        "payload": {
+            "agencyId": 3,
+            "currentpageno": 1,
+            "field": "TimesheetDate",
+            "fromDate": "2020-11-07T00:00:00.000Z",
+            "matchCase": false,
+            "operator": "startswith",
+            "orderColumn": "Client_LastName",
+            "orderType": "ASC",
+            "toDate": "2020-11-07T00:00:00.000Z",
+            "pageitem": 20,
+            "type": "string",
+            "value": ""
+        }
+    },
+    {
+        "name": "GetImportFilters",
+        "method": "POST",
+        "url": "http://allcaretesting.sbnasoftware.com/API/api/Import/GetImportFilters?",
+        "payload": {
+            "agencyID": 3,
+            "currentpageno": 1,
+            "field": "fileName",
+            "matchCase": false,
+            "operator": "startswith",
+            "orderColumn": "fileName",
+            "orderType": "asc",
+            "pageitem": 10,
+            "type": "string",
+            "value": ""
+        }
+    },
+    {
+        "name": "GetCareCoordinatorListFilter",
+        "method": "POST",
+        "url": "http://allcaretesting.sbnasoftware.com/API/api/CareCoordinator/GetCareCoordinatorListFilter?",
+        "payload": {
+            "SearchColumn": "CareCoordinatorName",
+            "SearchText": "",
+            "orderColumn": "CareCoordinatorName",
+            "orderType": "asc",
+            "pageitem": 10,
+            "currentpageno": 1,
+            "userId": 0,
+            "field": "CareCoordinatorName",
+            "value": "",
+            "matchCase": false,
+            "operator": "startswith",
+            "agencyId": 3
+        }
+    },
+    {
+        "name": "GetEvvTimesheet",
+        "method": "POST",
+        "url": "http://allcaretesting.sbnasoftware.com/API/api/EvvTimesheet/GetEvvTimesheet",
+        "payload": {
+            "currentpage": 1,
+            "pageitems": 10,
+            "orderColumn": "cname",
+            "orderType": "asc",
+            "field": "cname",
+            "value": "",
+            "matchCase": false,
+            "operator": "contains",
+            "type": "string",
+            "agencyId": 4,
+            "client": null,
+            "employee": null,
+            "start": "2020-11-07T00:00:00.000Z",
+            "end": "2020-11-07T00:00:00.000Z",
+            "service": null
+        }
+    },
+    {
+        "name": "GetQpTimesheet",
+        "url": "http://allcaretesting.sbnasoftware.com/API/api/Timesheet/GetQpTimesheet",
+        "method": "POST",
+        "payload": {
+            "field": "clientName",
+            "value": "",
+            "orderColumn": "TimesheetDate",
+            "orderType": "asc",
+            "matchCase": false,
+            "operator": "startswith",
+            "type": "string",
+            "agencyId": 3,
+            "client": 0,
+            "payor": 0,
+            "pageitems": 10,
+            "employee": 0,
+            "start": "2020-11-07T00:00:00.000Z",
+            "end": "2020-11-07T00:00:00.000Z",
+            "currentpage": 1
+        }
+    },
+    {
+        "name": "getEmployeeFilter",
+        "url": "http://allcaretesting.sbnasoftware.com/API/api/Employee/getEmployeeFilter",
+        "method": "POST",
+        "payload": {
+            "agencyId": 3,
+            "currentpageno": 1,
+            "employeeTypeLi": 107,
+            "field": "Name",
+            "matchCase": false,
+            "operator": "startswith",
+            "orderColumn": "Name",
+            "orderType": "asc",
+            "pageitem": 10,
+            "searchColumn": "Name",
+            "searchText": "",
+            "statusLid": 1,
+            "type": "string",
+            "value": ""
+        }
+    },
+    {
+        "name": "getEmployeeFilter(Search)",
+        "url": "http://allcaretesting.sbnasoftware.com/API/api/Employee/getEmployeeFilter",
+        "method": "POST",
+        "payload": {
+            "agencyId": 3,
+            "currentpageno": 1,
+            "employeeTypeLi": 107,
+            "field": "Name",
+            "matchCase": false,
+            "operator": "contains",
+            "orderColumn": "Name",
+            "orderType": "asc",
+            "pageitem": 10,
+            "searchColumn": "Name",
+            "searchText": "",
+            "statusLid": 1,
+            "type": "string",
+            "value": "abc"
+        }
+    },
+    {
+        "name": "GetTimeSheetVerificationFilter",
+        "method": "POST",
+        "url": "http://allcaretesting.sbnasoftware.com/API/api/TimeSheetVerfication/GetTimeSheetVerficationFilter",
+        "payload": {
+            "agencyId": 3,
+            "currentpageno": 1,
+            "field": "TimesheetDate",
+            "fromDate": "2020-11-01T00:00:00.000Z",
+            "matchCase": false,
+            "operator": "startswith",
+            "orderColumn": "Client_LastName",
+            "orderType": "ASC",
+            "pageitem": 20,
+            "toDate": "2020-11-05T00:00:00.000Z",
+            "type": "string",
+            "value": ""
+        }
+    },
+    {
+        "name": "GetUserItem",
+        "method": "POST",
+        "url": "http://allcaretesting.sbnasoftware.com/API/api/User/GetuserItem?",
+        "payload": {
+            "agencyId": 3,
+            "currentpageno": 1,
+            "field": "Fname",
+            "matchCase": false,
+            "operator": "startswith",
+            "orderColumn": "Fname",
+            "orderType": "asc",
+            "pageitem": 10,
+            "userId": 0,
+            "value": ""
+        }
+    },
+    {
+        "name": "GetUserItem(Search)",
+        "method": "POST",
+        "url": "http://allcaretesting.sbnasoftware.com/API/api/User/GetuserItem?",
+        "payload": {
+            "agencyId": 3,
+            "currentpageno": 1,
+            "field": "Fname",
+            "matchCase": false,
+            "operator": "startswith",
+            "orderColumn": "Fname",
+            "orderType": "asc",
+            "pageitem": 10,
+            "userId": 0,
+            "value": "abi"
+        }
+    },
+    {
+        "name": "GetClientListFilter",
+        "url": "http://allcaretesting.sbnasoftware.com/API/api/Client/GetClientListFilter",
+        "method": "POST",
+        "payload": {
+            "agencyId": 3,
+            "currentpageno": 1,
+            "field": "Name",
+            "matchCase": false,
+            "operator": "contains",
+            "orderColumn": "Name",
+            "orderType": "asc",
+            "pageitem": 10,
+            "searchColumn": "Name",
+            "searchText": "",
+            "statusLid": 1,
+            "type": "string",
+            "value": ""
+        }
+    },
+    {
+        "name": "GetServiceFilter",
+        "url": "http://allcaretesting.sbnasoftware.com/API/api/ServiceEvaluation/GetServiceFilter?",
+        "method": "POST",
+        "payload": {
+            "agencyId": 3,
+            "clientId": 4,
+            "currentpageno": 1,
+            "endperiod": 90,
+            "field": "firstName",
+            "isAnswered": true,
+            "matchCase": false,
+            "operator": "startswith",
+            "orderColumn": "firstName",
+            "orderType": "asc",
+            "pageitem": 10,
+            "startperiod": 30,
+            "type": "string",
+            "value": ""
+        }
+    }
+]
